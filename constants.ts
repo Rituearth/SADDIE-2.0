@@ -29,7 +29,7 @@ export const MENU_ITEMS: MenuItem[] = [
   { id: 'DES001', name: 'New York Cheesecake', category: 'Desserts', price: 7.00, description: 'Classic New York style cheesecake with a graham cracker crust.' },
 ];
 
-export const SADDIE_AVATAR_URL = 'https://ui-avatars.com/api/?name=Saddie&background=ef4444&color=fff&size=128&font-size=0.33&rounded=true&bold=true';
+export const SADDIE_AVATAR_URL = import.meta.env.VITE_SADDIE_AVATAR_URL;
 
 export const CUSTOMER_CARE_NUMBER = '+18449622954';
 export const ORDER_PHONE_NUMBER = '(213) 892-8535';
