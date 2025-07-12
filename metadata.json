@@ -1,0 +1,8 @@
+{
+  "name": "Saddie",
+  "description": "An AI-powered voice assistant for taking pick-up orders at Sadie's Pizzeria DTLA, featuring voice interaction and real-time order updates.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}
